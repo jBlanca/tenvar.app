@@ -27,24 +27,24 @@ written to an audit log you can read at Settings → Privacy → Network activit
 | **Model downloads** | Only when you choose to install a model | The model's address. Nothing about you or your files. |
 | **Web and email import** | Only if you switch it on — **off by default** — and then give Tenvar an address to read | That address. |
 | **Update check** | Only when you press *Check GitHub* in Settings | Nothing but the request itself. |
-| **Licence activation** | Once when you activate a key, then at most weekly | Your licence key and a machine identifier. Nothing else. |
+| **Licence activation** | Once when you activate a key, then at most weekly | Your licence key and a machine identifier, to [Polar](https://polar.sh). Nothing else. |
 
 That table is the complete list. There is no analytics, no crash reporting, no usage measurement,
 no advertising identifier, and no background check of any kind.
 
 ### About the licence check
 
-A licence key is verified with the payment provider when you activate it, and re-checked at most
-once a week afterwards. The machine identifier sent with it is a **hash** — your hardware identity
-is not stored anywhere in readable form, and its only purpose is to enforce the three-machine
-limit so a key cannot be shared indefinitely.
+A licence key is verified with [Polar](https://polar.sh), the payment provider, when you activate
+it, and re-checked at most once a week afterwards. The machine identifier sent with it is a
+**hash** — your hardware identity is not stored anywhere in readable form, and its only purpose is
+to enforce the activation limit so one key cannot be shared indefinitely.
 
 **Being offline is never treated as a verdict.** If the check cannot complete for any reason, your
 licence stays active and the application carries on. Only an explicit statement that a key was
 revoked will deactivate it.
 
-Licences issued for machines that will never be online are verified entirely on the device, by
-signature, and contact nothing at all.
+Activating a licence does require an internet connection once. Everything else in Tenvar works
+without one.
 
 ## What Tenvar cannot do
 

@@ -119,12 +119,12 @@ The free plan is the entire application — every feature, no time limit — cap
 Folders you already have keep working; the cap applies only to creating new ones.
 
 An **early license is $59** and lifts that cap for good, including v1 and every update to it. The
-price becomes **$89 at v1**. One license covers **3 machines**, and you can move a license between
+price becomes **$89 at v1**. A license covers several machines, and you can move one between
 machines yourself.
 
-A license key is checked once when you activate it and at most weekly after that. Being offline is
-never treated as a failure — if the check cannot complete, your license stays active. Keys issued
-for offline machines are verified entirely on the device and never contact anything.
+Activating a license needs an internet connection once. After that Tenvar re-checks it at most
+weekly, and being offline is never treated as a failure — if a check cannot complete, your license
+stays active. Only an explicit statement that the key was revoked will deactivate it.
 
 ---
 
