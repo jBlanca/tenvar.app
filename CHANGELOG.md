@@ -63,8 +63,9 @@ The first public build. Everything runs on your own machine.
 
 ### Known limitations
 
-- **The installers are not code-signed yet.** Windows and macOS will warn you the first time you
-  open one; see the [README](README.md) for the steps. Signing is planned before v1.
+- **The Windows installers are not code-signed yet**, so SmartScreen will warn you the first time;
+  see the [README](README.md). The macOS build is signed and notarized and opens normally. Windows
+  signing is planned before v1.
 - macOS requires Apple Silicon and macOS 14.4. Capturing a specific window requires macOS 15.
 - Live captions while recording are not included: the transcript is produced after you stop, which
   is both more accurate and better timed.

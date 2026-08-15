@@ -48,14 +48,8 @@ If you would rather verify the file first, see [Verifying your download](#verify
 
 ### macOS
 
-Apple Silicon only (M1 and later). If macOS refuses to open the app because it is from an
-unidentified developer:
-
-1. Find Tenvar in **Applications**.
-2. **Right-click** it and choose **Open**, then confirm.
-
-Right-click → Open is not the same as double-clicking; it is the route macOS provides for software
-outside the App Store, and you only need it once.
+Apple Silicon only (M1 and later). The build is **signed and notarized by Apple**, so it opens
+normally — drag it to Applications and launch it.
 
 ### Linux
 
@@ -113,14 +107,17 @@ If the check cannot reach GitHub, nothing happens and your installation is untou
 
 ---
 
-## What it costs
+## Early access, and what it costs
 
-The free plan is the entire application — every feature, no time limit — capped at **3 folders**.
-Folders you already have keep working; the cap applies only to creating new ones.
+This is the first public build. Everything described here is implemented and working, but it is
+version 0.1 — expect rough edges, and expect things to move between releases.
 
-An **early license is $59** and lifts that cap for good, including v1 and every update to it. The
-price becomes **$89 at v1**. A license covers several machines, and you can move one between
-machines yourself.
+The free plan is the entire application — every feature, no time limit, no account — capped at
+**3 folders**. A folder is a project, so three is enough to run real work end to end. Folders you
+already have keep working for good; the cap applies only to creating new ones.
+
+Lifting the cap is a **one-time purchase, never a subscription**, and includes v1 and every update
+to it. The app shows it when you reach the limit.
 
 Activating a license needs an internet connection once. After that Tenvar re-checks it at most
 weekly, and being offline is never treated as a failure — if a check cannot complete, your license
