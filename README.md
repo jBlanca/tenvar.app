@@ -107,17 +107,25 @@ If the check cannot reach GitHub, nothing happens and your installation is untou
 
 ---
 
-## Early access, and what it costs
+## What it costs
 
-This is the first public build. Everything described here is implemented and working, but it is
-version 0.1 — expect rough edges, and expect things to move between releases.
+**Three folders. Everything else unlimited.**
 
-The free plan is the entire application — every feature, no time limit, no account — capped at
-**3 folders**. A folder is a project, so three is enough to run real work end to end. Folders you
-already have keep working for good; the cap applies only to creating new ones.
+Inside them: as many recordings, videos, documents and notes as you like, transcribed for as long
+as you like, with every feature switched on. No account, no card, no time limit, no watermark, no
+export restriction. Nothing is held back for a paid tier — there is no paid tier, only a limit on
+how many projects you keep at once.
 
-Lifting the cap is a **one-time purchase, never a subscription**, and includes v1 and every update
-to it. The app shows it when you reach the limit.
+A folder is a *project*, not a file drawer, so for many people three is simply enough and Tenvar
+stays free permanently. A linked notes folder does not count toward it, and neither does the shared
+library.
+
+If you do need a fourth, lifting the limit is a **one-time purchase, never a subscription**, and
+includes v1 and every update to it. The app shows it when you reach the limit.
+
+This is version 0.1.0 — a real working tool, not a demo, but early. Expect rough edges, and expect
+things to move between releases. Right now the most useful thing anyone can do is use it and say
+what is wrong.
 
 Activating a license needs an internet connection once. After that Tenvar re-checks it at most
 weekly, and being offline is never treated as a failure — if a check cannot complete, your license
