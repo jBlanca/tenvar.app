@@ -13,22 +13,29 @@ the app's update check.
 
 ## Download
 
-**Latest: v0.1.0 — early access**
+**Latest: v0.1.1 — early access**
+
+Windows and Linux each come in two builds. **Take the standard one** unless you have an NVIDIA
+graphics card and want the fastest transcription it can give — it is a much larger download.
 
 | Platform | Download | Size |
 | --- | --- | --- |
-| **Windows** 10 (2004+) / 11, 64-bit | [Tenvar_0.1.0_x64-setup.exe](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64-setup.exe) | 686 MB |
-| Windows — managed deployment | [Tenvar_0.1.0_x64_en-US.msi](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64_en-US.msi) | 777 MB |
-| **macOS** 14.4+, Apple Silicon | [Tenvar_0.1.0_aarch64.dmg](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_aarch64.dmg) | 100 MB |
-| **Linux** — any distribution | [Tenvar_0.1.0_amd64.AppImage](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.AppImage) | 1.29 GB |
-| Linux — Debian & Ubuntu | [Tenvar_0.1.0_amd64.deb](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.deb) | 1.14 GB |
+| **Windows** 10 (2004+) / 11, 64-bit | [Tenvar_0.1.1_x64-setup.exe](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_x64-setup.exe) | 116 MB |
+| Windows — NVIDIA CUDA | [Tenvar_0.1.1_x64-nvidia-setup.exe](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_x64-nvidia-setup.exe) | 686 MB |
+| Windows — managed deployment | [Tenvar_0.1.1_x64_en-US.msi](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_x64_en-US.msi) | 187 MB |
+| **macOS** 14.4+, Apple Silicon | [Tenvar_0.1.1_aarch64.dmg](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_aarch64.dmg) | 100 MB |
+| **Linux** — any distribution | [Tenvar_0.1.1_amd64.AppImage](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_amd64.AppImage) | 330 MB |
+| Linux — Debian & Ubuntu | [Tenvar_0.1.1_amd64.deb](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_amd64.deb) | 160 MB |
+| Linux — any distribution, NVIDIA CUDA | [Tenvar_0.1.1_amd64-nvidia.AppImage](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_amd64-nvidia.AppImage) | 1.29 GB |
+| Linux — Debian & Ubuntu, NVIDIA CUDA | [Tenvar_0.1.1_amd64-nvidia.deb](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.1/Tenvar_0.1.1_amd64-nvidia.deb) | 1.15 GB |
 
 Every version, including older ones, is on the [Releases page](https://github.com/jBlanca/tenvar.app/releases).
 
-> **Why are the Linux files so much larger?**
-> They carry both NVIDIA (CUDA) and cross-vendor (Vulkan) acceleration, so the app runs fast on
-> whatever graphics card it finds without you choosing a build. Windows and macOS ship a single
-> acceleration path each.
+> **Which build do I want?**
+> The standard build already uses your graphics card — AMD, Intel or NVIDIA — through Vulkan. The
+> **NVIDIA CUDA** build adds NVIDIA's own acceleration, which is faster still on those cards and is
+> most of its extra size. If you are not sure, take the standard one; you can install the other
+> later. macOS needs no choice — Apple Silicon acceleration is built in.
 
 Speech, language and OCR models are **not** included in the installer. The app offers them on first
 run and downloads only the ones you pick — so the installed size grows according to what you use.
@@ -56,8 +63,8 @@ normally — drag it to Applications and launch it.
 **AppImage** — runs on any distribution, no installation:
 
 ```sh
-chmod +x Tenvar_0.1.0_amd64.AppImage
-./Tenvar_0.1.0_amd64.AppImage
+chmod +x Tenvar_0.1.1_amd64.AppImage
+./Tenvar_0.1.1_amd64.AppImage
 ```
 
 If it will not start, you may need FUSE (`sudo apt install libfuse2` on Ubuntu 22.04 and later).
@@ -65,7 +72,7 @@ If it will not start, you may need FUSE (`sudo apt install libfuse2` on Ubuntu 2
 **Debian / Ubuntu package**:
 
 ```sh
-sudo apt install ./Tenvar_0.1.0_amd64.deb
+sudo apt install ./Tenvar_0.1.1_amd64.deb
 ```
 
 System audio recording needs PipeWire or PulseAudio, which nearly every desktop already runs.
@@ -79,15 +86,15 @@ if they differ, do not run it.
 
 ```sh
 # macOS
-shasum -a 256 Tenvar_0.1.0_aarch64.dmg
+shasum -a 256 Tenvar_0.1.1_aarch64.dmg
 
 # Linux
-sha256sum Tenvar_0.1.0_amd64.AppImage
+sha256sum Tenvar_0.1.1_amd64.AppImage
 ```
 
 ```powershell
 # Windows
-Get-FileHash .\Tenvar_0.1.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\Tenvar_0.1.1_x64-setup.exe -Algorithm SHA256
 ```
 
 ---
@@ -123,7 +130,7 @@ library.
 If you do need a fourth, lifting the limit is a **one-time purchase, never a subscription**, and
 includes v1 and every update to it. The app shows it when you reach the limit.
 
-This is version 0.1.0 — a real working tool, not a demo, but early. Expect rough edges, and expect
+This is version 0.1.1 — a real working tool, not a demo, but early. Expect rough edges, and expect
 things to move between releases. Right now the most useful thing anyone can do is use it and say
 what is wrong.
 
