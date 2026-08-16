@@ -1,5 +1,27 @@
 # Changelog
 
+## v0.1.1 — early access
+
+Smaller downloads, and a round of fixes from the first weeks of use.
+
+**Downloads**
+- Windows and Linux now come in two builds each. The standard one is a fraction of the old
+  size and still uses whatever graphics card you have — AMD, Intel or NVIDIA; the separate
+  NVIDIA CUDA build keeps the fastest transcription on those cards. The in-app update check
+  offers the build that fits your machine.
+
+**Fixes**
+- Linux: camera recording works reliably now — a live self-view while recording, correct
+  clip length, and saved takes no longer lose their video.
+- Linux: on some built-in microphones the level meter sat near the top in a silent room and
+  recordings lost headroom; the signal is re-centred before anything reads it.
+- macOS: the notarized build was being denied the camera and the microphone — fixed.
+- The screen after saving a recording hands off to the file's own workspace, and the
+  just-stopped take previews its whole picture.
+- "Delete everything" really deletes everything now, and the app keeps working afterwards
+  without needing a restart.
+- Closing a media preview inside a note could stop the app responding — fixed.
+
 ## v0.1.0 — early access
 
 The first public build. Everything runs on your own machine.
