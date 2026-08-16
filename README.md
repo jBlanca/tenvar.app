@@ -17,11 +17,11 @@ the app's update check.
 
 | Platform | Download | Size |
 | --- | --- | --- |
-| **Windows** 10 (2004+) / 11, 64-bit | [Tenvar_0.1.0_x64-setup.exe](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64-setup.exe) | 654 MB |
-| Windows — managed deployment | [Tenvar_0.1.0_x64_en-US.msi](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64_en-US.msi) | 741 MB |
-| **macOS** 14.4+, Apple Silicon | [Tenvar_0.1.0_aarch64.dmg](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_aarch64.dmg) | 96 MB |
-| **Linux** — any distribution | [Tenvar_0.1.0_amd64.AppImage](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.AppImage) | 1.20 GB |
-| Linux — Debian & Ubuntu | [Tenvar_0.1.0_amd64.deb](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.deb) | 1.07 GB |
+| **Windows** 10 (2004+) / 11, 64-bit | [Tenvar_0.1.0_x64-setup.exe](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64-setup.exe) | 686 MB |
+| Windows — managed deployment | [Tenvar_0.1.0_x64_en-US.msi](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_x64_en-US.msi) | 777 MB |
+| **macOS** 14.4+, Apple Silicon | [Tenvar_0.1.0_aarch64.dmg](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_aarch64.dmg) | 100 MB |
+| **Linux** — any distribution | [Tenvar_0.1.0_amd64.AppImage](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.AppImage) | 1.29 GB |
+| Linux — Debian & Ubuntu | [Tenvar_0.1.0_amd64.deb](https://github.com/jBlanca/tenvar.app/releases/download/v0.1.0/Tenvar_0.1.0_amd64.deb) | 1.14 GB |
 
 Every version, including older ones, is on the [Releases page](https://github.com/jBlanca/tenvar.app/releases).
 
