@@ -1,5 +1,62 @@
 # Changelog
 
+## v0.2.0 — early access
+
+A release about the things around your recordings: the files you already have, the
+meetings you sit in, and the report you hand over at the end.
+
+**Browse what you already have**
+- A new **Shelves** view turns folders you approve into a private library — your audio,
+  video, documents, books, comics and notes, listed where they already live. Nothing is
+  moved, copied or read until you ask.
+- Open a file to look at it first. **Add as source** is the moment it becomes yours to
+  transcribe, read, mark and cite, and it is always your decision.
+- Find across everything on the shelves by name, by wording, or by meaning.
+
+**Meetings**
+- Record a meeting window, with your camera in the corner if you want it. The people on
+  the call and your own microphone stay on separate tracks, so each is transcribed on its
+  own.
+- The recording screen now shows you what is being captured while it happens.
+
+**Reports**
+- Reports are written on real pages now — A4, Letter or Legal — and what you see while
+  writing is what the PDF gives you.
+- A familiar ribbon replaces the old scattered controls.
+- A second way to work: **Designed pages**, for when you want to place everything exactly
+  where you want it rather than write straight down the page.
+- Two handoffs, both self-contained: a web page whose citations still play, and a PDF.
+
+**More kinds of file**
+- Word 97, PowerPoint, WordPerfect, Works, iWork and dozens of other office formats,
+  through an optional one-time download.
+- Saved web pages, previewed before you bring them in.
+- iPhone photos (HEIC) on macOS.
+
+**Notes**
+- Export a note as a faithful web page, or as a Markdown package with its media beside it.
+- One picker for sources, and a marks pane that lists both what you marked and what you
+  cited.
+
+**Privacy and safety**
+- Protect a folder with a password. Its contents are sealed until you unlock it.
+- Problem reports you compose offline and send yourself, if you want to. Tenvar still
+  receives nothing.
+- The shared folder is now called **Shared**.
+
+**Downloads**
+- Windows now comes in two builds, as Linux already did: a standard one that still uses
+  your graphics card, and a larger NVIDIA CUDA build. The update check offers the right
+  one for your machine.
+
+**Fixes**
+- Linux: meeting-window recording keeps its picture, and screen captures are the right
+  shape.
+- Long recordings no longer run out of memory while transcribing, at any length.
+- Subtitles clear from the screen when the speaking stops, and long lines are split.
+- macOS: office documents open on a notarized install.
+- Many fixes across Shelves, Reports, Notes and playback.
+
 ## v0.1.1 — early access
 
 Smaller downloads, and a round of fixes from the first weeks of use.
