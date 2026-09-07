@@ -1,5 +1,68 @@
 # Changelog
 
+## v0.3.0 — early access
+
+A release about Obsidian: bringing a vault in whole, keeping what makes it a vault,
+and leaving the original exactly where it is.
+
+**Bring an Obsidian vault in**
+- Convert a vault into a Tenvar folder. Tenvar copies it and owns the copy — **your
+  original vault is never moved, edited or written to.** It stays a working Obsidian
+  vault, and you can keep using it.
+- A converted vault opens as its own graph, with your wikilinks drawn between notes and
+  your folder tree still down the side.
+- Notes keep what they were: equations, code blocks, callouts, nested lists, embedded
+  notes, tags, properties, and the dates they were actually written.
+- Links between notes survive the move, and links that pointed at attachments still find
+  them.
+- Obsidian Bases come across as collections you can read.
+- If a conversion is interrupted, it picks up where it stopped rather than starting over.
+- Leave whenever you like: export the whole folder back out as ordinary Markdown, in its
+  own tree, with its media beside it.
+- Tenvar now asks about a vault it finds in a folder you already watch, once, rather than
+  deciding for you.
+
+**Transcription**
+- The Fast engine (Parakeet) now uses your graphics card. It was CPU-only before.
+- Long recordings transcribe faster, and progress reflects real position throughout.
+- Word-level timing is back on the accurate path, so clicking a line lands on the right
+  moment and subtitles line up.
+
+**Answers you can check**
+- Extraction now reads across every part of a document, not just the first.
+- Evidence from several pages is merged into one answer instead of competing.
+- Flashcards and follow-up questions carry their citations with them.
+- AI results keep their provenance when copied.
+
+**Files**
+- TIFF images display. Every picture gets a real thumbnail instead of a spinner.
+- Describe an image from its own workspace, and the map reads that description.
+
+**The map**
+- Rebuilt so a folder's shape is legible at a glance, with depth and a little parallax.
+- A file shows what it still needs — transcribing, or indexing — and now says **why** when
+  it cannot be made searchable, and offers the model.
+
+**Licensing**
+- The free plan is **two Tenvar folders and one converted Obsidian vault**. These are
+  separate: converting a vault does not use up a folder place. Shared sources use neither.
+- Folders you already have keep working, including any above these limits.
+
+**Your copy of the terms**
+- The licence agreement, the privacy policy and the licence of every third-party component
+  now ship inside the app, on all three platforms, readable offline in Settings. The 0.2.0
+  Windows and macOS builds went out without them; this closes that.
+- A one-time notice asks you to accept the agreement, with the full text one click away.
+
+**Fixes**
+- Linux: the map was spending seconds a frame drawing shadows. It doesn't any more.
+- The status bar reported the Fast engine as running on the CPU when it was on your GPU.
+- Recordings and books stopped re-indexing themselves after unrelated edits.
+- Meeting-window recording keeps its picture when the window is still or resized.
+- A transcription that finished is no longer reported as failed when the helper crashes on
+  its way out.
+- Builds no longer carry the build machine's own file paths.
+
 ## v0.2.0 — early access
 
 A release about the things around your recordings: the files you already have, the
