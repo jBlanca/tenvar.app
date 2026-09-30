@@ -1,5 +1,54 @@
 # Changelog
 
+## v0.4.0 — early access
+
+Longer writing projects, Apple Notes imports, and clearer speaker identification.
+
+**Manuscripts**
+
+- Arrange your notes into manuscripts with parts, chapters and scenes, an editable outline,
+  and word counts.
+- Read the manuscript in order, save named drafts, and restore a draft as an independent copy.
+- Export a captured manuscript to DOCX or PDF. Saved drafts retain their supporting sources
+  and pictures and follow the project's password protection.
+
+**Apple Notes on macOS**
+
+- Browse Apple Notes from Shelves and add individual notes to a project, or import a library.
+- Imports create editable copies with available attachments. Apple Notes itself is unchanged.
+- Rescan an imported library to bring in new notes and update untouched copies. Your Tenvar
+  edits are preserved when the two copies conflict.
+
+**Speaker identification**
+
+- Nemotron 3 is the default speaker-identification engine, automatically detecting up to
+  eight speakers. The Classic engine remains available when you need to specify a count.
+- Redo speaker identification from the transcript and correct speaker assignments for
+  individual passages. Colored labels make dialogue easier to follow.
+
+**Linux downloads**
+
+- Built against the Ubuntu 24.04 / glibc 2.39 baseline.
+- AppImages include the native GTK video output and codec components needed for common
+  video and audio formats, including HEVC video and E-AC-3 soundtracks.
+- Standard and NVIDIA CUDA builds remain available as both AppImage and Debian packages.
+
+**Free-plan allowances**
+
+- The free plan now includes **one Tenvar project plus one imported library**, choosing
+  either Obsidian or Apple Notes. The two allowances are separate.
+- Existing projects and imported libraries remain usable, including those above the limits.
+  A license removes both limits.
+
+**Limitations and compatibility**
+
+- Windows installers remain unsigned and may show a SmartScreen warning.
+- Apple Notes import is macOS-only. Locked notes are skipped, Apple-specific formatting
+  is not guaranteed, and unavailable attachments are reported rather than silently dropped.
+- Linux requires glibc 2.39 or newer; older distributions need an OS upgrade.
+- Backups containing manuscripts use a newer format and require Tenvar 0.4.0 or later to
+  restore. Earlier backup formats remain readable.
+
 ## v0.3.0 — early access
 
 A release about Obsidian: bringing a vault in whole, keeping what makes it a vault,
